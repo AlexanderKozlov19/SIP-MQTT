@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0BE1681FEBF1B200EC1727 /* UDPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BE1671FEBF1B200EC1727 /* UDPSocket.m */; };
+		0D0BE1691FEBF1B200EC1727 /* UDPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BE1671FEBF1B200EC1727 /* UDPSocket.m */; };
+		0D0BE16A1FEBF1B200EC1727 /* UDPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BE1671FEBF1B200EC1727 /* UDPSocket.m */; };
+		0D0BE16F1FEBF23800EC1727 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BE16D1FEBF23700EC1727 /* GCDAsyncUdpSocket.m */; };
+		0D0BE1701FEBF23800EC1727 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BE16D1FEBF23700EC1727 /* GCDAsyncUdpSocket.m */; };
+		0D0BE1711FEBF23800EC1727 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BE16D1FEBF23700EC1727 /* GCDAsyncUdpSocket.m */; };
+		0D0BE1721FEBF23800EC1727 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BE16E1FEBF23800EC1727 /* GCDAsyncSocket.m */; };
+		0D0BE1731FEBF23800EC1727 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BE16E1FEBF23800EC1727 /* GCDAsyncSocket.m */; };
+		0D0BE1741FEBF23800EC1727 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BE16E1FEBF23800EC1727 /* GCDAsyncSocket.m */; };
+		0D1D43BE1FBA5FD1002D0676 /* MQTT.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1D43BD1FBA5FD1002D0676 /* MQTT.m */; };
+		0D1D43CB1FBBB734002D0676 /* ca.crt in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D43CA1FBBB734002D0676 /* ca.crt */; };
+		0D286D461FF29A3600F9C3B9 /* AudioRecording.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D286D451FF29A3600F9C3B9 /* AudioRecording.m */; };
+		0D286D471FF29A3600F9C3B9 /* AudioRecording.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D286D451FF29A3600F9C3B9 /* AudioRecording.m */; };
+		0D286D481FF29A3600F9C3B9 /* AudioRecording.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D286D451FF29A3600F9C3B9 /* AudioRecording.m */; };
+		0D286D4B1FF7B72100F9C3B9 /* AudioPlaying.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D286D4A1FF7B72100F9C3B9 /* AudioPlaying.m */; };
+		0D286D4C1FF7B72100F9C3B9 /* AudioPlaying.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D286D4A1FF7B72100F9C3B9 /* AudioPlaying.m */; };
+		0D286D4D1FF7B72100F9C3B9 /* AudioPlaying.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D286D4A1FF7B72100F9C3B9 /* AudioPlaying.m */; };
+		0D54787D1FB7B8C9001943C8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D54787C1FB7B8C9001943C8 /* AudioToolbox.framework */; };
+		0D5F15D71FBD1C7200E772D6 /* SIPpj.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F15D61FBD1C7200E772D6 /* SIPpj.m */; };
 		0D7818561FB253B30057C197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7818551FB253B30057C197 /* AppDelegate.m */; };
 		0D7818591FB253B30057C197 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7818581FB253B30057C197 /* ViewController.m */; };
 		0D78185C1FB253B30057C197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D78185A1FB253B30057C197 /* Main.storyboard */; };
@@ -15,6 +34,9 @@
 		0D7818641FB253B30057C197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7818631FB253B30057C197 /* main.m */; };
 		0D78186E1FB253B30057C197 /* SIP_MQTTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D78186D1FB253B30057C197 /* SIP_MQTTTests.m */; };
 		0D7818791FB253B30057C197 /* SIP_MQTTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7818781FB253B30057C197 /* SIP_MQTTUITests.m */; };
+		7367DDD19CAE7A7E27C0A645 /* libPods-SIP MQTTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A79B9079324543C94AE17D71 /* libPods-SIP MQTTTests.a */; };
+		8482BEE3ECAE0B0D6C0AA37B /* libPods-SIP MQTTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D131B7273E8C7BDDCA3F5F /* libPods-SIP MQTTUITests.a */; };
+		8B62870C70EDE8C9CD9470B8 /* libPods-SIP MQTT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 396B11290075F9703BA5E30A /* libPods-SIP MQTT.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D0BE1661FEBF1B200EC1727 /* UDPSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UDPSocket.h; sourceTree = "<group>"; };
+		0D0BE1671FEBF1B200EC1727 /* UDPSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UDPSocket.m; sourceTree = "<group>"; };
+		0D0BE16B1FEBF23700EC1727 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		0D0BE16C1FEBF23700EC1727 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		0D0BE16D1FEBF23700EC1727 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		0D0BE16E1FEBF23800EC1727 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		0D1D43BC1FBA5FD1002D0676 /* MQTT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQTT.h; sourceTree = "<group>"; };
+		0D1D43BD1FBA5FD1002D0676 /* MQTT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQTT.m; sourceTree = "<group>"; };
+		0D1D43CA1FBBB734002D0676 /* ca.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ca.crt; sourceTree = "<group>"; };
+		0D286D441FF29A3600F9C3B9 /* AudioRecording.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioRecording.h; sourceTree = "<group>"; };
+		0D286D451FF29A3600F9C3B9 /* AudioRecording.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioRecording.m; sourceTree = "<group>"; };
+		0D286D491FF7B72100F9C3B9 /* AudioPlaying.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlaying.h; sourceTree = "<group>"; };
+		0D286D4A1FF7B72100F9C3B9 /* AudioPlaying.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlaying.m; sourceTree = "<group>"; };
+		0D54787C1FB7B8C9001943C8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0D5F15D51FBD1C7200E772D6 /* SIPpj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIPpj.h; sourceTree = "<group>"; };
+		0D5F15D61FBD1C7200E772D6 /* SIPpj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIPpj.m; sourceTree = "<group>"; };
 		0D7818511FB253B30057C197 /* SIP MQTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SIP MQTT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7818541FB253B30057C197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D7818551FB253B30057C197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +89,16 @@
 		0D7818741FB253B30057C197 /* SIP MQTTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SIP MQTTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7818781FB253B30057C197 /* SIP_MQTTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIP_MQTTUITests.m; sourceTree = "<group>"; };
 		0D78187A1FB253B30057C197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA733401FB3DE8C00B48FBF /* SIP MQTT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SIP MQTT.entitlements"; sourceTree = "<group>"; };
+		1AB9B999B702DF92B88D61C3 /* Pods-SIP MQTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIP MQTT.release.xcconfig"; path = "CocoaPods/Pods/Target Support Files/Pods-SIP MQTT/Pods-SIP MQTT.release.xcconfig"; sourceTree = "<group>"; };
+		396B11290075F9703BA5E30A /* libPods-SIP MQTT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SIP MQTT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C8FBA47790F6AB5863CD4A /* Pods-SIP MQTTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIP MQTTTests.debug.xcconfig"; path = "CocoaPods/Pods/Target Support Files/Pods-SIP MQTTTests/Pods-SIP MQTTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		529CBCD955C60DF8F14EFB35 /* Pods-SIP MQTTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIP MQTTUITests.debug.xcconfig"; path = "CocoaPods/Pods/Target Support Files/Pods-SIP MQTTUITests/Pods-SIP MQTTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68DB866217C0DE778B5CE0C5 /* Pods-SIP MQTTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIP MQTTUITests.release.xcconfig"; path = "CocoaPods/Pods/Target Support Files/Pods-SIP MQTTUITests/Pods-SIP MQTTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A6D131B7273E8C7BDDCA3F5F /* libPods-SIP MQTTUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SIP MQTTUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79B9079324543C94AE17D71 /* libPods-SIP MQTTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SIP MQTTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D94E8B9C24B76EFBBC1E81 /* Pods-SIP MQTTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIP MQTTTests.release.xcconfig"; path = "CocoaPods/Pods/Target Support Files/Pods-SIP MQTTTests/Pods-SIP MQTTTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB9AD7A8D0212464C11A4EDB /* Pods-SIP MQTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIP MQTT.debug.xcconfig"; path = "CocoaPods/Pods/Target Support Files/Pods-SIP MQTT/Pods-SIP MQTT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B62870C70EDE8C9CD9470B8 /* libPods-SIP MQTT.a in Frameworks */,
+				0D54787D1FB7B8C9001943C8 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7367DDD19CAE7A7E27C0A645 /* libPods-SIP MQTTTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8482BEE3ECAE0B0D6C0AA37B /* libPods-SIP MQTTUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +133,13 @@
 		0D7818481FB253B30057C197 = {
 			isa = PBXGroup;
 			children = (
+				0D1D43CA1FBBB734002D0676 /* ca.crt */,
 				0D7818531FB253B30057C197 /* SIP MQTT */,
 				0D78186C1FB253B30057C197 /* SIP MQTTTests */,
 				0D7818771FB253B30057C197 /* SIP MQTTUITests */,
 				0D7818521FB253B30057C197 /* Products */,
+				E1E0284A708E2CFB07D3F7C6 /* Pods */,
+				CF514F534384DF58F878C4CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +156,26 @@
 		0D7818531FB253B30057C197 /* SIP MQTT */ = {
 			isa = PBXGroup;
 			children = (
+				0DA733401FB3DE8C00B48FBF /* SIP MQTT.entitlements */,
+				0D5F15D51FBD1C7200E772D6 /* SIPpj.h */,
+				0D5F15D61FBD1C7200E772D6 /* SIPpj.m */,
 				0D7818541FB253B30057C197 /* AppDelegate.h */,
 				0D7818551FB253B30057C197 /* AppDelegate.m */,
 				0D7818571FB253B30057C197 /* ViewController.h */,
 				0D7818581FB253B30057C197 /* ViewController.m */,
+				0D1D43BC1FBA5FD1002D0676 /* MQTT.h */,
+				0D1D43BD1FBA5FD1002D0676 /* MQTT.m */,
+				0D0BE16B1FEBF23700EC1727 /* GCDAsyncSocket.h */,
+				0D0BE16E1FEBF23800EC1727 /* GCDAsyncSocket.m */,
+				0D0BE16C1FEBF23700EC1727 /* GCDAsyncUdpSocket.h */,
+				0D0BE16D1FEBF23700EC1727 /* GCDAsyncUdpSocket.m */,
+				0D0BE1661FEBF1B200EC1727 /* UDPSocket.h */,
+				0D0BE1671FEBF1B200EC1727 /* UDPSocket.m */,
 				0D78185A1FB253B30057C197 /* Main.storyboard */,
+				0D286D441FF29A3600F9C3B9 /* AudioRecording.h */,
+				0D286D451FF29A3600F9C3B9 /* AudioRecording.m */,
+				0D286D491FF7B72100F9C3B9 /* AudioPlaying.h */,
+				0D286D4A1FF7B72100F9C3B9 /* AudioPlaying.m */,
 				0D78185D1FB253B30057C197 /* Assets.xcassets */,
 				0D78185F1FB253B30057C197 /* LaunchScreen.storyboard */,
 				0D7818621FB253B30057C197 /* Info.plist */,
@@ -132,6 +202,30 @@
 			path = "SIP MQTTUITests";
 			sourceTree = "<group>";
 		};
+		CF514F534384DF58F878C4CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D54787C1FB7B8C9001943C8 /* AudioToolbox.framework */,
+				396B11290075F9703BA5E30A /* libPods-SIP MQTT.a */,
+				A79B9079324543C94AE17D71 /* libPods-SIP MQTTTests.a */,
+				A6D131B7273E8C7BDDCA3F5F /* libPods-SIP MQTTUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1E0284A708E2CFB07D3F7C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB9AD7A8D0212464C11A4EDB /* Pods-SIP MQTT.debug.xcconfig */,
+				1AB9B999B702DF92B88D61C3 /* Pods-SIP MQTT.release.xcconfig */,
+				47C8FBA47790F6AB5863CD4A /* Pods-SIP MQTTTests.debug.xcconfig */,
+				B8D94E8B9C24B76EFBBC1E81 /* Pods-SIP MQTTTests.release.xcconfig */,
+				529CBCD955C60DF8F14EFB35 /* Pods-SIP MQTTUITests.debug.xcconfig */,
+				68DB866217C0DE778B5CE0C5 /* Pods-SIP MQTTUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D78187D1FB253B30057C197 /* Build configuration list for PBXNativeTarget "SIP MQTT" */;
 			buildPhases = (
+				B9DF4AFD41189B883125EDC4 /* [CP] Check Pods Manifest.lock */,
 				0D78184D1FB253B30057C197 /* Sources */,
 				0D78184E1FB253B30057C197 /* Frameworks */,
 				0D78184F1FB253B30057C197 /* Resources */,
+				07E7FDE4715AEBF772228D74 /* [CP] Embed Pods Frameworks */,
+				64CEE9680C4DA940FA128345 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D7818801FB253B30057C197 /* Build configuration list for PBXNativeTarget "SIP MQTTTests" */;
 			buildPhases = (
+				3D0B7429E6DA4F803E8A536B /* [CP] Check Pods Manifest.lock */,
 				0D7818651FB253B30057C197 /* Sources */,
 				0D7818661FB253B30057C197 /* Frameworks */,
 				0D7818671FB253B30057C197 /* Resources */,
+				9CFE73DA715AF8BE4C7D4857 /* [CP] Embed Pods Frameworks */,
+				4B8536C3557F6DC14AC6FDF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D7818831FB253B30057C197 /* Build configuration list for PBXNativeTarget "SIP MQTTUITests" */;
 			buildPhases = (
+				52854189534F290BC1343510 /* [CP] Check Pods Manifest.lock */,
 				0D7818701FB253B30057C197 /* Sources */,
 				0D7818711FB253B30057C197 /* Frameworks */,
 				0D7818721FB253B30057C197 /* Resources */,
+				AAB2FF4AB475E2FF36E20EFD /* [CP] Embed Pods Frameworks */,
+				280C2439B7FB4F51A471E56A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +303,17 @@
 					0D7818501FB253B30057C197 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					0D7818681FB253B30057C197 = {
 						CreatedOnToolsVersion = 9.0.1;
@@ -239,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D7818611FB253B30057C197 /* LaunchScreen.storyboard in Resources */,
+				0D1D43CB1FBBB734002D0676 /* ca.crt in Resources */,
 				0D78185E1FB253B30057C197 /* Assets.xcassets in Resources */,
 				0D78185C1FB253B30057C197 /* Main.storyboard in Resources */,
 			);
@@ -260,14 +375,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07E7FDE4715AEBF772228D74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/CocoaPods/Pods/Target Support Files/Pods-SIP MQTT/Pods-SIP MQTT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		280C2439B7FB4F51A471E56A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/CocoaPods/Pods/Target Support Files/Pods-SIP MQTTUITests/Pods-SIP MQTTUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D0B7429E6DA4F803E8A536B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B8536C3557F6DC14AC6FDF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/CocoaPods/Pods/Target Support Files/Pods-SIP MQTTTests/Pods-SIP MQTTTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52854189534F290BC1343510 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64CEE9680C4DA940FA128345 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/CocoaPods/Pods/Target Support Files/Pods-SIP MQTT/Pods-SIP MQTT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFE73DA715AF8BE4C7D4857 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/CocoaPods/Pods/Target Support Files/Pods-SIP MQTTTests/Pods-SIP MQTTTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB2FF4AB475E2FF36E20EFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/CocoaPods/Pods/Target Support Files/Pods-SIP MQTTUITests/Pods-SIP MQTTUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9DF4AFD41189B883125EDC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D78184D1FB253B30057C197 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0BE1721FEBF23800EC1727 /* GCDAsyncSocket.m in Sources */,
 				0D7818591FB253B30057C197 /* ViewController.m in Sources */,
+				0D5F15D71FBD1C7200E772D6 /* SIPpj.m in Sources */,
+				0D286D4B1FF7B72100F9C3B9 /* AudioPlaying.m in Sources */,
 				0D7818641FB253B30057C197 /* main.m in Sources */,
+				0D286D461FF29A3600F9C3B9 /* AudioRecording.m in Sources */,
 				0D7818561FB253B30057C197 /* AppDelegate.m in Sources */,
+				0D0BE16F1FEBF23800EC1727 /* GCDAsyncUdpSocket.m in Sources */,
+				0D0BE1681FEBF1B200EC1727 /* UDPSocket.m in Sources */,
+				0D1D43BE1FBA5FD1002D0676 /* MQTT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +535,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D286D471FF29A3600F9C3B9 /* AudioRecording.m in Sources */,
+				0D0BE1731FEBF23800EC1727 /* GCDAsyncSocket.m in Sources */,
+				0D0BE1691FEBF1B200EC1727 /* UDPSocket.m in Sources */,
+				0D286D4C1FF7B72100F9C3B9 /* AudioPlaying.m in Sources */,
+				0D0BE1701FEBF23800EC1727 /* GCDAsyncUdpSocket.m in Sources */,
 				0D78186E1FB253B30057C197 /* SIP_MQTTTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +548,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D286D481FF29A3600F9C3B9 /* AudioRecording.m in Sources */,
+				0D0BE1741FEBF23800EC1727 /* GCDAsyncSocket.m in Sources */,
+				0D0BE16A1FEBF1B200EC1727 /* UDPSocket.m in Sources */,
+				0D286D4D1FF7B72100F9C3B9 /* AudioPlaying.m in Sources */,
+				0D0BE1711FEBF23800EC1727 /* GCDAsyncUdpSocket.m in Sources */,
 				0D7818791FB253B30057C197 /* SIP_MQTTUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,32 +698,53 @@
 		};
 		0D78187E1FB253B30057C197 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9AD7A8D0212464C11A4EDB /* Pods-SIP MQTT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SIP MQTT/SIP MQTT.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQFGK5478M;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "SIP MQTT/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "bundle.SIP-MQTT";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = bundle.SIPMQTT.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		0D78187F1FB253B30057C197 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB9B999B702DF92B88D61C3 /* Pods-SIP MQTT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SIP MQTT/SIP MQTT.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQFGK5478M;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "SIP MQTT/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "bundle.SIP-MQTT";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = bundle.SIPMQTT.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		0D7818811FB253B30057C197 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C8FBA47790F6AB5863CD4A /* Pods-SIP MQTTTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +759,7 @@
 		};
 		0D7818821FB253B30057C197 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D94E8B9C24B76EFBBC1E81 /* Pods-SIP MQTTTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +774,7 @@
 		};
 		0D7818841FB253B30057C197 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529CBCD955C60DF8F14EFB35 /* Pods-SIP MQTTUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "SIP MQTTUITests/Info.plist";
@@ -495,6 +788,7 @@
 		};
 		0D7818851FB253B30057C197 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68DB866217C0DE778B5CE0C5 /* Pods-SIP MQTTUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "SIP MQTTUITests/Info.plist";

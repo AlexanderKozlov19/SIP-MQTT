@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CallKit/CallKit.h>
+#import <PushKit/PushKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, PKPushRegistryDelegate, CXProviderDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) CXProvider *provider;
+@property (nonatomic, strong) CXCallController *callKitCallController;
 
 
 @end
